@@ -1,6 +1,22 @@
 body{
 
-    background-color: #B4B4B4;
+    background: linear-gradient(to bottom right, #D6DBDF , #2E4053);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.title{
+
+    width: 300px;
+    height: 50px;
+    background-color: #7999ca;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+
 }
 /*Diseñando el canvas*/
 #canvas{
@@ -32,14 +48,64 @@ body{
 
 /*Informacion del juego*/
 .puntuacion{
-    
-
     font-size: 1.2rem;
     margin-left: 100px;
     margin-top: -400px;
+}
+
+/*Efecto Pressed en los botones*/
+button{
+
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+    
+}
+
+/*BOTON INICIAR*/
+.btn-iniciar{
+    background-color: #4CAF50;
+}
+.btn-iniciar:active{
+
+    background-color: #48b248;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+}
+
+/*BOTON REPARTIR*/
+.btn-repartir{
+    background-color: #6985AF;
+}
+
+.btn-repartir:active{
+
+    background-color: #7999ca;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
 
 }
 
+/*BOTON MOSTRAR*/
+.btn-mostrar{
+    background-color: #a8dae4;
+}
+
+.btn-mostrar:active{
+
+    background-color: #bbe6f4;
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+
+}
 
 
 
